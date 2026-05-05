@@ -15,7 +15,7 @@ jobs:
       contents: read
       pull-requests: write
       issues: write
-    uses: alisw/ali-bot/.github/workflows/check-untested-packages.yml@master
+    uses: vkucera/ali-bot/.github/workflows/check-untested-packages.yml@master
     with:
       owner: ${{ github.event.repository.owner.login }}
       repo: ${{ github.event.repository.name }}
