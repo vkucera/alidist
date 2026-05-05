@@ -39,6 +39,7 @@ prepend_path:
 # test
 # test
 # test
+# test
 
 mkdir -p $INSTALLROOT
 cmake $SOURCEDIR                              \
