@@ -33,6 +33,7 @@ prepend_path:
 ---
 #!/bin/bash -e
 # test
+# test
 
 mkdir -p $INSTALLROOT
 cmake $SOURCEDIR                              \
