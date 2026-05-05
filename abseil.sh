@@ -32,6 +32,7 @@ prepend_path:
   PKG_CONFIG_PATH: "$ABSEIL_ROOT/lib/pkgconfig"
 ---
 #!/bin/bash -e
+# test
 
 mkdir -p $INSTALLROOT
 cmake $SOURCEDIR                              \
