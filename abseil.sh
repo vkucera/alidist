@@ -34,6 +34,7 @@ prepend_path:
 #!/bin/bash -e
 # test
 # test
+# test
 
 mkdir -p $INSTALLROOT
 cmake $SOURCEDIR                              \
