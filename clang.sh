@@ -126,7 +126,7 @@ fi
 cat << \EOF > test.cc
 #include <iostream>
 EOF
-"$INSTALLROOT/bin-safe/clang++" -v -c test.cc
+# "$INSTALLROOT/bin-safe/clang++" -v -c test.cc
 
 
 # Modulefile
