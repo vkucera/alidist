@@ -56,7 +56,7 @@ incremental_recipe: |
   mkdir -p $INSTALLROOT/etc/modulefiles && rsync -a --delete etc/modulefiles/ $INSTALLROOT/etc/modulefiles
 ---
 #!/bin/bash -e
-# Fix the syntax highlighing when your editor is not smart enough to 
+# Fix the syntax highlighing when your editor is not smart enough to
 # understand yaml.
 cat >/dev/null <<EOF
 EOF
@@ -156,6 +156,7 @@ case $PKG_VERSION in
   v6[-.]30*) EXTRA_CMAKE_OPTIONS="-Dminuit2=ON -Dpythia6=ON -Dpythia6_nolink=ON" ;;
   v6[-.]32[-.]0[6789]*) EXTRA_CMAKE_OPTIONS="-Dminuit=ON -Dpythia6=ON -Dpythia6_nolink=ON -Dproof=ON" ;;
   v6[-.]36[-.][0-9]*) EXTRA_CMAKE_OPTIONS="-Dminuit=ON -Dpythia6=ON -Dpythia6_nolink=ON -Dproof=ON -Dgeombuilder=ON" ;;
+  v6[-.]40[-.][0-9]*) EXTRA_CMAKE_OPTIONS="-Dminuit=ON -Dpythia6=ON -Dpythia6_nolink=ON -Dgeombuilder=ON" ;;
   *) EXTRA_CMAKE_OPTIONS="-Dminuit=ON" ;;
 esac
 
